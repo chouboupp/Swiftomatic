@@ -16,6 +16,7 @@
 		AF463D7B2600ED310066744C /* Swiftomatic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF463D792600ED310066744C /* Swiftomatic.xcdatamodeld */; };
 		AF463D862600ED310066744C /* SwiftomaticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D852600ED310066744C /* SwiftomaticTests.swift */; };
 		AF463D912600ED310066744C /* SwiftomaticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D902600ED310066744C /* SwiftomaticUITests.swift */; };
+		AFE07D4526010BE20058B1EB /* testMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE07D4426010BE20058B1EB /* testMax.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		AF463D8C2600ED310066744C /* SwiftomaticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftomaticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF463D902600ED310066744C /* SwiftomaticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftomaticUITests.swift; sourceTree = "<group>"; };
 		AF463D922600ED310066744C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFE07D4426010BE20058B1EB /* testMax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testMax.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		AF463D6D2600ED2F0066744C /* Swiftomatic */ = {
 			isa = PBXGroup;
 			children = (
+				AFE07D4426010BE20058B1EB /* testMax.swift */,
 				AF463D6E2600ED2F0066744C /* SwiftomaticApp.swift */,
 				AF463D702600ED2F0066744C /* ContentView.swift */,
 				AF463D722600ED310066744C /* Assets.xcassets */,
@@ -272,6 +275,7 @@
 				AF463D712600ED2F0066744C /* ContentView.swift in Sources */,
 				AF463D7B2600ED310066744C /* Swiftomatic.xcdatamodeld in Sources */,
 				AF463D6F2600ED2F0066744C /* SwiftomaticApp.swift in Sources */,
+				AFE07D4526010BE20058B1EB /* testMax.swift in Sources */,
 				0A0989872601029C0075B54A /* Yasmina.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
