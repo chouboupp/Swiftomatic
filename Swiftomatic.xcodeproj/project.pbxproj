@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A0989872601029C0075B54A /* Yasmina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0989862601029C0075B54A /* Yasmina.swift */; };
 		AF463D6F2600ED2F0066744C /* SwiftomaticApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D6E2600ED2F0066744C /* SwiftomaticApp.swift */; };
 		AF463D712600ED2F0066744C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D702600ED2F0066744C /* ContentView.swift */; };
 		AF463D732600ED310066744C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF463D722600ED310066744C /* Assets.xcassets */; };
@@ -16,9 +15,6 @@
 		AF463D7B2600ED310066744C /* Swiftomatic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF463D792600ED310066744C /* Swiftomatic.xcdatamodeld */; };
 		AF463D862600ED310066744C /* SwiftomaticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D852600ED310066744C /* SwiftomaticTests.swift */; };
 		AF463D912600ED310066744C /* SwiftomaticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D902600ED310066744C /* SwiftomaticUITests.swift */; };
-		AFE07D4526010BE20058B1EB /* testMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE07D4426010BE20058B1EB /* testMax.swift */; };
-		AFE07D4B26010D820058B1EB /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE07D4926010D820058B1EB /* Test.swift */; };
-		AFE07D4C26010D820058B1EB /* test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE07D4A26010D820058B1EB /* test1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A0989862601029C0075B54A /* Yasmina.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yasmina.swift; sourceTree = "<group>"; };
 		AF463D6B2600ED2F0066744C /* Swiftomatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftomatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF463D6E2600ED2F0066744C /* SwiftomaticApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftomaticApp.swift; sourceTree = "<group>"; };
 		AF463D702600ED2F0066744C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,9 +49,6 @@
 		AF463D8C2600ED310066744C /* SwiftomaticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftomaticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF463D902600ED310066744C /* SwiftomaticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftomaticUITests.swift; sourceTree = "<group>"; };
 		AF463D922600ED310066744C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFE07D4426010BE20058B1EB /* testMax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testMax.swift; sourceTree = "<group>"; };
-		AFE07D4926010D820058B1EB /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		AFE07D4A26010D820058B1EB /* test1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +99,6 @@
 		AF463D6D2600ED2F0066744C /* Swiftomatic */ = {
 			isa = PBXGroup;
 			children = (
-				AFE07D4926010D820058B1EB /* Test.swift */,
-				AFE07D4A26010D820058B1EB /* test1.swift */,
-				AFE07D4426010BE20058B1EB /* testMax.swift */,
 				AF463D6E2600ED2F0066744C /* SwiftomaticApp.swift */,
 				AF463D702600ED2F0066744C /* ContentView.swift */,
 				AF463D722600ED310066744C /* Assets.xcassets */,
@@ -117,7 +106,6 @@
 				AF463D7C2600ED310066744C /* Info.plist */,
 				AF463D792600ED310066744C /* Swiftomatic.xcdatamodeld */,
 				AF463D742600ED310066744C /* Preview Content */,
-				0A0989862601029C0075B54A /* Yasmina.swift */,
 			);
 			path = Swiftomatic;
 			sourceTree = "<group>";
@@ -280,11 +268,7 @@
 				AF463D782600ED310066744C /* Persistence.swift in Sources */,
 				AF463D712600ED2F0066744C /* ContentView.swift in Sources */,
 				AF463D7B2600ED310066744C /* Swiftomatic.xcdatamodeld in Sources */,
-				AFE07D4B26010D820058B1EB /* Test.swift in Sources */,
 				AF463D6F2600ED2F0066744C /* SwiftomaticApp.swift in Sources */,
-				AFE07D4526010BE20058B1EB /* testMax.swift in Sources */,
-				0A0989872601029C0075B54A /* Yasmina.swift in Sources */,
-				AFE07D4C26010D820058B1EB /* test1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
