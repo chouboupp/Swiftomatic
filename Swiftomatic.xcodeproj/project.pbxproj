@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85D7983C2601069700556807 /* TestJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D7983B2601069700556807 /* TestJ.swift */; };
 		AF463D6F2600ED2F0066744C /* SwiftomaticApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D6E2600ED2F0066744C /* SwiftomaticApp.swift */; };
 		AF463D712600ED2F0066744C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D702600ED2F0066744C /* ContentView.swift */; };
 		AF463D732600ED310066744C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF463D722600ED310066744C /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85D7983B2601069700556807 /* TestJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestJ.swift; sourceTree = "<group>"; };
 		AF463D6B2600ED2F0066744C /* Swiftomatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftomatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF463D6E2600ED2F0066744C /* SwiftomaticApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftomaticApp.swift; sourceTree = "<group>"; };
 		AF463D702600ED2F0066744C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				AF463D6E2600ED2F0066744C /* SwiftomaticApp.swift */,
 				AF463D702600ED2F0066744C /* ContentView.swift */,
+				85D7983B2601069700556807 /* TestJ.swift */,
 				AF463D722600ED310066744C /* Assets.xcassets */,
 				AF463D772600ED310066744C /* Persistence.swift */,
 				AF463D7C2600ED310066744C /* Info.plist */,
@@ -267,6 +270,7 @@
 			files = (
 				AF463D782600ED310066744C /* Persistence.swift in Sources */,
 				AF463D712600ED2F0066744C /* ContentView.swift in Sources */,
+				85D7983C2601069700556807 /* TestJ.swift in Sources */,
 				AF463D7B2600ED310066744C /* Swiftomatic.xcdatamodeld in Sources */,
 				AF463D6F2600ED2F0066744C /* SwiftomaticApp.swift in Sources */,
 			);
