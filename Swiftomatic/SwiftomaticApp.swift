@@ -15,6 +15,7 @@ struct SwiftomaticApp: App {
         WindowGroup {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            TabBar()
         }
     }
 }

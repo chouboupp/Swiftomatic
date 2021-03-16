@@ -15,6 +15,11 @@
 		AF463D7B2600ED310066744C /* Swiftomatic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF463D792600ED310066744C /* Swiftomatic.xcdatamodeld */; };
 		AF463D862600ED310066744C /* SwiftomaticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D852600ED310066744C /* SwiftomaticTests.swift */; };
 		AF463D912600ED310066744C /* SwiftomaticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D902600ED310066744C /* SwiftomaticUITests.swift */; };
+		AFE07D54260110940058B1EB /* ContributorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE07D53260110940058B1EB /* ContributorsView.swift */; };
+		AFE07D59260110B70058B1EB /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE07D58260110B70058B1EB /* TabBar.swift */; };
+		AFE07D662601196E0058B1EB /* FrameworksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE07D652601196E0058B1EB /* FrameworksView.swift */; };
+		AFE07D6B2601198D0058B1EB /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE07D6A2601198D0058B1EB /* BooksView.swift */; };
+		AFE07D732601199F0058B1EB /* ConferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE07D722601199F0058B1EB /* ConferencesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		AF463D8C2600ED310066744C /* SwiftomaticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftomaticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF463D902600ED310066744C /* SwiftomaticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftomaticUITests.swift; sourceTree = "<group>"; };
 		AF463D922600ED310066744C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFE07D53260110940058B1EB /* ContributorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributorsView.swift; sourceTree = "<group>"; };
+		AFE07D58260110B70058B1EB /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		AFE07D652601196E0058B1EB /* FrameworksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworksView.swift; sourceTree = "<group>"; };
+		AFE07D6A2601198D0058B1EB /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
+		AFE07D722601199F0058B1EB /* ConferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferencesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,15 @@
 		AF463D6D2600ED2F0066744C /* Swiftomatic */ = {
 			isa = PBXGroup;
 			children = (
-				AF463D6E2600ED2F0066744C /* SwiftomaticApp.swift */,
-				AF463D702600ED2F0066744C /* ContentView.swift */,
-				AF463D722600ED310066744C /* Assets.xcassets */,
+				AFE07D7B26011CC30058B1EB /* Books */,
+				AFE07D7C26011CD10058B1EB /* Frameworks */,
+				AFE07D7D26011CE30058B1EB /* Conferences */,
+				AFE07D7A26011CAF0058B1EB /* Contributors */,
+				AFE07D58260110B70058B1EB /* TabBar.swift */,
 				AF463D772600ED310066744C /* Persistence.swift */,
+				AF463D702600ED2F0066744C /* ContentView.swift */,
+				AF463D6E2600ED2F0066744C /* SwiftomaticApp.swift */,
+				AF463D722600ED310066744C /* Assets.xcassets */,
 				AF463D7C2600ED310066744C /* Info.plist */,
 				AF463D792600ED310066744C /* Swiftomatic.xcdatamodeld */,
 				AF463D742600ED310066744C /* Preview Content */,
@@ -134,6 +149,38 @@
 				AF463D922600ED310066744C /* Info.plist */,
 			);
 			path = SwiftomaticUITests;
+			sourceTree = "<group>";
+		};
+		AFE07D7A26011CAF0058B1EB /* Contributors */ = {
+			isa = PBXGroup;
+			children = (
+				AFE07D53260110940058B1EB /* ContributorsView.swift */,
+			);
+			path = Contributors;
+			sourceTree = "<group>";
+		};
+		AFE07D7B26011CC30058B1EB /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				AFE07D6A2601198D0058B1EB /* BooksView.swift */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		AFE07D7C26011CD10058B1EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFE07D652601196E0058B1EB /* FrameworksView.swift */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFE07D7D26011CE30058B1EB /* Conferences */ = {
+			isa = PBXGroup;
+			children = (
+				AFE07D722601199F0058B1EB /* ConferencesView.swift */,
+			);
+			path = Conferences;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,10 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFE07D732601199F0058B1EB /* ConferencesView.swift in Sources */,
 				AF463D782600ED310066744C /* Persistence.swift in Sources */,
 				AF463D712600ED2F0066744C /* ContentView.swift in Sources */,
 				AF463D7B2600ED310066744C /* Swiftomatic.xcdatamodeld in Sources */,
+				AFE07D6B2601198D0058B1EB /* BooksView.swift in Sources */,
+				AFE07D59260110B70058B1EB /* TabBar.swift in Sources */,
 				AF463D6F2600ED2F0066744C /* SwiftomaticApp.swift in Sources */,
+				AFE07D662601196E0058B1EB /* FrameworksView.swift in Sources */,
+				AFE07D54260110940058B1EB /* ContributorsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
