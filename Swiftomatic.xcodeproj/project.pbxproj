@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF463D6F2600ED2F0066744C /* SwiftomaticApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D6E2600ED2F0066744C /* SwiftomaticApp.swift */; };
+		AF463D712600ED2F0066744C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D702600ED2F0066744C /* ContentView.swift */; };
+		AF463D732600ED310066744C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF463D722600ED310066744C /* Assets.xcassets */; };
+		AF463D762600ED310066744C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF463D752600ED310066744C /* Preview Assets.xcassets */; };
+		AF463D782600ED310066744C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D772600ED310066744C /* Persistence.swift */; };
+		AF463D7B2600ED310066744C /* Swiftomatic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF463D792600ED310066744C /* Swiftomatic.xcdatamodeld */; };
+		AF463D862600ED310066744C /* SwiftomaticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D852600ED310066744C /* SwiftomaticTests.swift */; };
+		AF463D912600ED310066744C /* SwiftomaticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D902600ED310066744C /* SwiftomaticUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF463D822600ED310066744C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF463D632600ED2F0066744C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF463D6A2600ED2F0066744C;
+			remoteInfo = Swiftomatic;
+		};
+		AF463D8D2600ED310066744C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF463D632600ED2F0066744C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF463D6A2600ED2F0066744C;
+			remoteInfo = Swiftomatic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF463D6B2600ED2F0066744C /* Swiftomatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftomatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF463D6E2600ED2F0066744C /* SwiftomaticApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftomaticApp.swift; sourceTree = "<group>"; };
+		AF463D702600ED2F0066744C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF463D722600ED310066744C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF463D752600ED310066744C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF463D772600ED310066744C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AF463D7A2600ED310066744C /* Swiftomatic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Swiftomatic.xcdatamodel; sourceTree = "<group>"; };
+		AF463D7C2600ED310066744C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF463D812600ED310066744C /* SwiftomaticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftomaticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF463D852600ED310066744C /* SwiftomaticTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftomaticTests.swift; sourceTree = "<group>"; };
+		AF463D872600ED310066744C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF463D8C2600ED310066744C /* SwiftomaticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftomaticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF463D902600ED310066744C /* SwiftomaticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftomaticUITests.swift; sourceTree = "<group>"; };
+		AF463D922600ED310066744C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF463D682600ED2F0066744C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF463D7E2600ED310066744C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF463D892600ED310066744C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF463D622600ED2F0066744C = {
+			isa = PBXGroup;
+			children = (
+				AF463D6D2600ED2F0066744C /* Swiftomatic */,
+				AF463D842600ED310066744C /* SwiftomaticTests */,
+				AF463D8F2600ED310066744C /* SwiftomaticUITests */,
+				AF463D6C2600ED2F0066744C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF463D6C2600ED2F0066744C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF463D6B2600ED2F0066744C /* Swiftomatic.app */,
+				AF463D812600ED310066744C /* SwiftomaticTests.xctest */,
+				AF463D8C2600ED310066744C /* SwiftomaticUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF463D6D2600ED2F0066744C /* Swiftomatic */ = {
+			isa = PBXGroup;
+			children = (
+				AF463D6E2600ED2F0066744C /* SwiftomaticApp.swift */,
+				AF463D702600ED2F0066744C /* ContentView.swift */,
+				AF463D722600ED310066744C /* Assets.xcassets */,
+				AF463D772600ED310066744C /* Persistence.swift */,
+				AF463D7C2600ED310066744C /* Info.plist */,
+				AF463D792600ED310066744C /* Swiftomatic.xcdatamodeld */,
+				AF463D742600ED310066744C /* Preview Content */,
+			);
+			path = Swiftomatic;
+			sourceTree = "<group>";
+		};
+		AF463D742600ED310066744C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF463D752600ED310066744C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF463D842600ED310066744C /* SwiftomaticTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF463D852600ED310066744C /* SwiftomaticTests.swift */,
+				AF463D872600ED310066744C /* Info.plist */,
+			);
+			path = SwiftomaticTests;
+			sourceTree = "<group>";
+		};
+		AF463D8F2600ED310066744C /* SwiftomaticUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF463D902600ED310066744C /* SwiftomaticUITests.swift */,
+				AF463D922600ED310066744C /* Info.plist */,
+			);
+			path = SwiftomaticUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF463D6A2600ED2F0066744C /* Swiftomatic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF463D952600ED310066744C /* Build configuration list for PBXNativeTarget "Swiftomatic" */;
+			buildPhases = (
+				AF463D672600ED2F0066744C /* Sources */,
+				AF463D682600ED2F0066744C /* Frameworks */,
+				AF463D692600ED2F0066744C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swiftomatic;
+			productName = Swiftomatic;
+			productReference = AF463D6B2600ED2F0066744C /* Swiftomatic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF463D802600ED310066744C /* SwiftomaticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF463D982600ED310066744C /* Build configuration list for PBXNativeTarget "SwiftomaticTests" */;
+			buildPhases = (
+				AF463D7D2600ED310066744C /* Sources */,
+				AF463D7E2600ED310066744C /* Frameworks */,
+				AF463D7F2600ED310066744C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF463D832600ED310066744C /* PBXTargetDependency */,
+			);
+			name = SwiftomaticTests;
+			productName = SwiftomaticTests;
+			productReference = AF463D812600ED310066744C /* SwiftomaticTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF463D8B2600ED310066744C /* SwiftomaticUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF463D9B2600ED310066744C /* Build configuration list for PBXNativeTarget "SwiftomaticUITests" */;
+			buildPhases = (
+				AF463D882600ED310066744C /* Sources */,
+				AF463D892600ED310066744C /* Frameworks */,
+				AF463D8A2600ED310066744C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF463D8E2600ED310066744C /* PBXTargetDependency */,
+			);
+			name = SwiftomaticUITests;
+			productName = SwiftomaticUITests;
+			productReference = AF463D8C2600ED310066744C /* SwiftomaticUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF463D632600ED2F0066744C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AF463D6A2600ED2F0066744C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					AF463D802600ED310066744C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AF463D6A2600ED2F0066744C;
+					};
+					AF463D8B2600ED310066744C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AF463D6A2600ED2F0066744C;
+					};
+				};
+			};
+			buildConfigurationList = AF463D662600ED2F0066744C /* Build configuration list for PBXProject "Swiftomatic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF463D622600ED2F0066744C;
+			productRefGroup = AF463D6C2600ED2F0066744C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF463D6A2600ED2F0066744C /* Swiftomatic */,
+				AF463D802600ED310066744C /* SwiftomaticTests */,
+				AF463D8B2600ED310066744C /* SwiftomaticUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF463D692600ED2F0066744C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF463D762600ED310066744C /* Preview Assets.xcassets in Resources */,
+				AF463D732600ED310066744C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF463D7F2600ED310066744C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF463D8A2600ED310066744C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF463D672600ED2F0066744C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF463D782600ED310066744C /* Persistence.swift in Sources */,
+				AF463D712600ED2F0066744C /* ContentView.swift in Sources */,
+				AF463D7B2600ED310066744C /* Swiftomatic.xcdatamodeld in Sources */,
+				AF463D6F2600ED2F0066744C /* SwiftomaticApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF463D7D2600ED310066744C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF463D862600ED310066744C /* SwiftomaticTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF463D882600ED310066744C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF463D912600ED310066744C /* SwiftomaticUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF463D832600ED310066744C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF463D6A2600ED2F0066744C /* Swiftomatic */;
+			targetProxy = AF463D822600ED310066744C /* PBXContainerItemProxy */;
+		};
+		AF463D8E2600ED310066744C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF463D6A2600ED2F0066744C /* Swiftomatic */;
+			targetProxy = AF463D8D2600ED310066744C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF463D932600ED310066744C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF463D942600ED310066744C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF463D962600ED310066744C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Swiftomatic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Swiftomatic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Audrey-Roscop.Swiftomatic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF463D972600ED310066744C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Swiftomatic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Swiftomatic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Audrey-Roscop.Swiftomatic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF463D992600ED310066744C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftomaticTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Audrey-Roscop.SwiftomaticTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swiftomatic.app/Swiftomatic";
+			};
+			name = Debug;
+		};
+		AF463D9A2600ED310066744C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftomaticTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Audrey-Roscop.SwiftomaticTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swiftomatic.app/Swiftomatic";
+			};
+			name = Release;
+		};
+		AF463D9C2600ED310066744C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftomaticUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Audrey-Roscop.SwiftomaticUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Swiftomatic;
+			};
+			name = Debug;
+		};
+		AF463D9D2600ED310066744C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftomaticUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Audrey-Roscop.SwiftomaticUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Swiftomatic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF463D662600ED2F0066744C /* Build configuration list for PBXProject "Swiftomatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF463D932600ED310066744C /* Debug */,
+				AF463D942600ED310066744C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF463D952600ED310066744C /* Build configuration list for PBXNativeTarget "Swiftomatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF463D962600ED310066744C /* Debug */,
+				AF463D972600ED310066744C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF463D982600ED310066744C /* Build configuration list for PBXNativeTarget "SwiftomaticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF463D992600ED310066744C /* Debug */,
+				AF463D9A2600ED310066744C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF463D9B2600ED310066744C /* Build configuration list for PBXNativeTarget "SwiftomaticUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF463D9C2600ED310066744C /* Debug */,
+				AF463D9D2600ED310066744C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF463D792600ED310066744C /* Swiftomatic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF463D7A2600ED310066744C /* Swiftomatic.xcdatamodel */,
+			);
+			currentVersion = AF463D7A2600ED310066744C /* Swiftomatic.xcdatamodel */;
+			path = Swiftomatic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AF463D632600ED2F0066744C /* Project object */;
+}
