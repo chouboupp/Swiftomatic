@@ -29,7 +29,7 @@ struct FrameworkDetailView: View {
                         .padding()
                 
                     Picker(selection: /*@START_MENU_TOKEN@*/.constant(1)/*@END_MENU_TOKEN@*/, label: /*@START_MENU_TOKEN@*/Text("Picker")/*@END_MENU_TOKEN@*/) {
-                        Text("Pas lu").tag(1)
+                        Text("Pas lu ").tag(1)
                         Text("En cours").tag(2)
                         Text("Terminé")
                             .tag(2)
