@@ -45,9 +45,6 @@ struct ContributorsDetails: View {
                 }
                 .padding()
             }
-            
-            Spacer()
-            
     }
 }
 
