@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		85D798452601729900556807 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D798442601729900556807 /* Framework.swift */; };
 		85D7984A26017FBC00556807 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D7984926017FBC00556807 /* FrameworkDetailView.swift */; };
 		AF463D6F2600ED2F0066744C /* SwiftomaticApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D6E2600ED2F0066744C /* SwiftomaticApp.swift */; };
 		AF463D712600ED2F0066744C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D702600ED2F0066744C /* ContentView.swift */; };
@@ -17,6 +16,7 @@
 		AF463D7B2600ED310066744C /* Swiftomatic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF463D792600ED310066744C /* Swiftomatic.xcdatamodeld */; };
 		AF463D862600ED310066744C /* SwiftomaticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D852600ED310066744C /* SwiftomaticTests.swift */; };
 		AF463D912600ED310066744C /* SwiftomaticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D902600ED310066744C /* SwiftomaticUITests.swift */; };
+		AFBF960026022E3E000714D5 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBF95FF26022E3E000714D5 /* Framework.swift */; };
 		AFE07D54260110940058B1EB /* ContributorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE07D53260110940058B1EB /* ContributorsView.swift */; };
 		AFE07D59260110B70058B1EB /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE07D58260110B70058B1EB /* TabBar.swift */; };
 		AFE07D662601196E0058B1EB /* FrameworksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE07D652601196E0058B1EB /* FrameworksView.swift */; };
@@ -46,7 +46,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		85D798442601729900556807 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Framework.swift; path = ../../../Framework.swift; sourceTree = "<group>"; };
 		85D7984926017FBC00556807 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		AF463D6B2600ED2F0066744C /* Swiftomatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftomatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF463D6E2600ED2F0066744C /* SwiftomaticApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftomaticApp.swift; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		AF463D8C2600ED310066744C /* SwiftomaticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftomaticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF463D902600ED310066744C /* SwiftomaticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftomaticUITests.swift; sourceTree = "<group>"; };
 		AF463D922600ED310066744C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFBF95FF26022E3E000714D5 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		AFE07D53260110940058B1EB /* ContributorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributorsView.swift; sourceTree = "<group>"; };
 		AFE07D58260110B70058B1EB /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		AFE07D652601196E0058B1EB /* FrameworksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworksView.swift; sourceTree = "<group>"; };
@@ -121,8 +121,8 @@
 		AF463D6D2600ED2F0066744C /* Swiftomatic */ = {
 			isa = PBXGroup;
 			children = (
-				AFE07D7B26011CC30058B1EB /* Books */,
 				AFE07D7C26011CD10058B1EB /* Frameworks */,
+				AFE07D7B26011CC30058B1EB /* Books */,
 				AFE07D7D26011CE30058B1EB /* Conferences */,
 				AFE07D7A26011CAF0058B1EB /* Contributors */,
 				AFE07D58260110B70058B1EB /* TabBar.swift */,
@@ -188,7 +188,7 @@
 			children = (
 				AFE07D652601196E0058B1EB /* FrameworksView.swift */,
 				85D7984926017FBC00556807 /* FrameworkDetailView.swift */,
-				85D798442601729900556807 /* Framework.swift */,
+				AFBF95FF26022E3E000714D5 /* Framework.swift */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -338,11 +338,11 @@
 				AF463D712600ED2F0066744C /* ContentView.swift in Sources */,
 				AF463D7B2600ED310066744C /* Swiftomatic.xcdatamodeld in Sources */,
 				AFE07D6B2601198D0058B1EB /* BooksView.swift in Sources */,
+				AFBF960026022E3E000714D5 /* Framework.swift in Sources */,
 				AFE07D59260110B70058B1EB /* TabBar.swift in Sources */,
 				85D7984A26017FBC00556807 /* FrameworkDetailView.swift in Sources */,
 				AF463D6F2600ED2F0066744C /* SwiftomaticApp.swift in Sources */,
 				AFE07D662601196E0058B1EB /* FrameworksView.swift in Sources */,
-				85D798452601729900556807 /* Framework.swift in Sources */,
 				AFE07D54260110940058B1EB /* ContributorsView.swift in Sources */,
 				AFE07DAA260181E10058B1EB /* ContributorsCircleImage.swift in Sources */,
 			);
