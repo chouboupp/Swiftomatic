@@ -18,6 +18,7 @@ struct ContributorsRow: View {
                 Text(contributors.name)
                     .font(.title2)
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                    .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
                 Text(contributors.caption)
                     .font(.subheadline)
             }
