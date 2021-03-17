@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85D798452601729900556807 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D798442601729900556807 /* Framework.swift */; };
+		85D7984A26017FBC00556807 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D7984926017FBC00556807 /* FrameworkDetailView.swift */; };
 		AF463D6F2600ED2F0066744C /* SwiftomaticApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D6E2600ED2F0066744C /* SwiftomaticApp.swift */; };
 		AF463D712600ED2F0066744C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF463D702600ED2F0066744C /* ContentView.swift */; };
 		AF463D732600ED310066744C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF463D722600ED310066744C /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85D798442601729900556807 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Framework.swift; path = ../../../Framework.swift; sourceTree = "<group>"; };
+		85D7984926017FBC00556807 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		AF463D6B2600ED2F0066744C /* Swiftomatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftomatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF463D6E2600ED2F0066744C /* SwiftomaticApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftomaticApp.swift; sourceTree = "<group>"; };
 		AF463D702600ED2F0066744C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -183,6 +187,8 @@
 			isa = PBXGroup;
 			children = (
 				AFE07D652601196E0058B1EB /* FrameworksView.swift */,
+				85D7984926017FBC00556807 /* FrameworkDetailView.swift */,
+				85D798442601729900556807 /* Framework.swift */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -333,8 +339,10 @@
 				AF463D7B2600ED310066744C /* Swiftomatic.xcdatamodeld in Sources */,
 				AFE07D6B2601198D0058B1EB /* BooksView.swift in Sources */,
 				AFE07D59260110B70058B1EB /* TabBar.swift in Sources */,
+				85D7984A26017FBC00556807 /* FrameworkDetailView.swift in Sources */,
 				AF463D6F2600ED2F0066744C /* SwiftomaticApp.swift in Sources */,
 				AFE07D662601196E0058B1EB /* FrameworksView.swift in Sources */,
+				85D798452601729900556807 /* Framework.swift in Sources */,
 				AFE07D54260110940058B1EB /* ContributorsView.swift in Sources */,
 				AFE07DAA260181E10058B1EB /* ContributorsCircleImage.swift in Sources */,
 			);
