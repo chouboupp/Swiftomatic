@@ -336,6 +336,7 @@
 				AFE07D9B260165A80058B1EB /* Contributors.swift in Sources */,
 				AF463D782600ED310066744C /* Persistence.swift in Sources */,
 				AF463D712600ED2F0066744C /* ContentView.swift in Sources */,
+				85D7983C2601069700556807 /* TestJ.swift in Sources */,
 				AF463D7B2600ED310066744C /* Swiftomatic.xcdatamodeld in Sources */,
 				AFE07D6B2601198D0058B1EB /* BooksView.swift in Sources */,
 				AFE07D59260110B70058B1EB /* TabBar.swift in Sources */,
