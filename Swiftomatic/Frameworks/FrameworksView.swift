@@ -16,7 +16,7 @@ struct FrameworksView: View {
                 FrameworkRow(framework: framework)
                 }
             }
-            .navigationTitle("Frameworks ")
+            .navigationTitle("Frameworks")
         }
        
     }
